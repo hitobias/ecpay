@@ -1,6 +1,6 @@
 {
-    "name": "hitobias\/opay",
-    "description": "Opay for laravel",
+    "name": "hitobias\/ecpay",
+    "description": "ECPay for laravel",
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Hitobias\\Opay\\": "src"
+            "Hitobias\\ECPay\\": "src"
         },
         "classmap": [
             "lib/"
@@ -24,10 +24,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hitobias\\Opay\\OpayServiceProvider"
+                "Hitobias\\ECPay\\ECPayServiceProvider"
             ],
             "aliases": {
-                "Opay": "Hitobias\\Opay\\Facade"
+                "Opay": "Hitobias\\ECPay\\Facade"
             }
         }
     }
