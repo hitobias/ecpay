@@ -1,7 +1,6 @@
-<h1 align="center"> opay </h1>
+<h1 align="center"> ecpay </h1>
 
-<p align="center"> Opay for laravel.</p>
-
+<p align="center"> ECPay for laravel.</p>
 
 ## Installing
 
